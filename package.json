@@ -1,0 +1,19 @@
+{
+  "name": "ovmapps",
+  "version": "1.0.0",
+  "main": "index.js",
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "start": "node --experimental-modules index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cryptoeconomicslab/ovm-ethereum-generator": "^0.3.4"
+  },
+  "description": "",
+  "type": "module"
+}
